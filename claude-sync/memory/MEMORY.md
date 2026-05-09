@@ -1,0 +1,9 @@
+- [Student Info](user_student.md) — 温州大学23网工1班，学号22211357125，网络智能技术与应用课程
+- [Network HW Progress](project_network_hw.md) — 两份作业+研讨报告+期末设计已完成，待提交FTP
+- [Course Resources](reference_network_course.md) — PPT/作业/实验目录结构及FTP提交地址
+- [ML Homework Workflow](feedback_ml_homework_workflow.md) — ML作业最佳流程：分析脚本→填充脚本→检查docx
+- [Seminar Report Workflow](feedback_seminar_report_workflow.md) — 研讨报告流程：批量读PDF→按4部分结构组织→生成docx
+- [Final Design Workflow](feedback_final_design_workflow.md) — 期末设计流程：真实UNSW-NB15→6种方法→10+图表→5部分+代码附录docx
+- [Claude Sync Feature](project_claude_sync.md) — wlopyst.github.io 的 Claude Sync 功能，管理 memory/skills 的上传下载
+- [Subagent Workflow](feedback_subagent_workflow.md) — 单文件项目批量派发子代理更高效，注意防止跑偏
+- [Claude Sync Skill](reference_claude_sync_skill.md) — ~/.claude/skills/claude-sync/SKILL.md，跨设备迁移配置

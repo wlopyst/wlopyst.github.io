@@ -1,6 +1,108 @@
 {
   "version": 1,
-  "updatedAt": "2026-05-09T00:00:00Z",
-  "memory": [],
-  "skills": []
+  "updatedAt": "2026-05-09T16:00:00Z",
+  "memory": [
+    {
+      "id": "MEMORY",
+      "name": "Memory Index",
+      "description": "所有记忆文件的索引",
+      "type": "index",
+      "path": "claude-sync/memory/MEMORY.md"
+    },
+    {
+      "id": "user_student",
+      "name": "Student Info",
+      "description": "温州大学23网工1班，学号22211357125，网络智能技术与应用课程",
+      "type": "user",
+      "path": "claude-sync/memory/user_student.md"
+    },
+    {
+      "id": "project_network_hw",
+      "name": "Network HW Progress",
+      "description": "两份作业+研讨报告+期末设计已完成，待提交FTP",
+      "type": "project",
+      "path": "claude-sync/memory/project_network_hw.md"
+    },
+    {
+      "id": "project_claude_sync",
+      "name": "Claude Sync Feature",
+      "description": "wlopyst.github.io 的 Claude Sync 功能，管理 memory/skills 的上传下载",
+      "type": "project",
+      "path": "claude-sync/memory/project_claude_sync.md"
+    },
+    {
+      "id": "reference_network_course",
+      "name": "Course Resources",
+      "description": "PPT/作业/实验目录结构及FTP提交地址",
+      "type": "reference",
+      "path": "claude-sync/memory/reference_network_course.md"
+    },
+    {
+      "id": "reference_claude_sync_skill",
+      "name": "Claude Sync Skill Location",
+      "description": "claude-sync skill 位置和触发关键词",
+      "type": "reference",
+      "path": "claude-sync/memory/reference_claude_sync_skill.md"
+    },
+    {
+      "id": "feedback_ml_homework_workflow",
+      "name": "ML Homework Workflow",
+      "description": "ML作业最佳流程：分析脚本→填充脚本→检查docx",
+      "type": "feedback",
+      "path": "claude-sync/memory/feedback_ml_homework_workflow.md"
+    },
+    {
+      "id": "feedback_seminar_report_workflow",
+      "name": "Seminar Report Workflow",
+      "description": "研讨报告流程：批量读PDF→按4部分结构组织→生成docx",
+      "type": "feedback",
+      "path": "claude-sync/memory/feedback_seminar_report_workflow.md"
+    },
+    {
+      "id": "feedback_final_design_workflow",
+      "name": "Final Design Workflow",
+      "description": "期末设计流程：真实UNSW-NB15→6种方法→10+图表→5部分+代码附录docx",
+      "type": "feedback",
+      "path": "claude-sync/memory/feedback_final_design_workflow.md"
+    },
+    {
+      "id": "feedback_subagent_workflow",
+      "name": "Subagent Workflow",
+      "description": "单文件项目批量派发子代理更高效，注意防止跑偏",
+      "type": "feedback",
+      "path": "claude-sync/memory/feedback_subagent_workflow.md"
+    }
+  ],
+  "skills": [
+    {
+      "id": "claude-sync",
+      "name": "Claude Sync",
+      "description": "跨设备迁移 Claude Code memory 和 skills",
+      "path": "claude-sync/skills/claude-sync/"
+    },
+    {
+      "id": "course-final-design",
+      "name": "Course Final Design",
+      "description": "课程期末设计报告：数据集分析、多方法实现、结果对比可视化",
+      "path": "claude-sync/skills/course-final-design/"
+    },
+    {
+      "id": "guizang-ppt-skill",
+      "name": "Guizang PPT Skill",
+      "description": "电子杂志×电子墨水风格横向翻页网页PPT",
+      "path": "claude-sync/skills/guizang-ppt-skill/"
+    },
+    {
+      "id": "ml-homework",
+      "name": "ML Homework",
+      "description": "机器学习/数据科学课程作业自动化",
+      "path": "claude-sync/skills/ml-homework/"
+    },
+    {
+      "id": "seminar-report",
+      "name": "Seminar Report",
+      "description": "文献研讨报告：批量读PDF、提取核心内容、生成docx",
+      "path": "claude-sync/skills/seminar-report/"
+    }
+  ]
 }
