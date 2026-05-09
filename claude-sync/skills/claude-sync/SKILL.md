@@ -70,6 +70,42 @@ The web UI requires a GitHub Personal Access Token with `repo` scope:
 2. Enter in the Sync section → click "Save"
 3. Token stored in browser localStorage only (never committed to repo)
 
+## Current Inventory (2026-05-09)
+
+**Memory (10 files):**
+| ID | Name | Type |
+|----|------|------|
+| MEMORY | Memory Index | index |
+| user_student | Student Info | user |
+| project_network_hw | Network HW Progress | project |
+| project_claude_sync | Claude Sync Feature | project |
+| reference_network_course | Course Resources | reference |
+| reference_claude_sync_skill | Claude Sync Skill Location | reference |
+| feedback_ml_homework_workflow | ML Homework Workflow | feedback |
+| feedback_seminar_report_workflow | Seminar Report Workflow | feedback |
+| feedback_final_design_workflow | Final Design Workflow | feedback |
+| feedback_subagent_workflow | Subagent Workflow | feedback |
+
+**Skills (5 skills):**
+| ID | Description |
+|----|-------------|
+| claude-sync | 跨设备迁移 Claude Code 配置 |
+| course-final-design | 课程期末设计报告自动化 |
+| guizang-ppt-skill | 电子杂志风格网页 PPT |
+| ml-homework | 机器学习作业自动化 |
+| seminar-report | 文献研讨报告自动化 |
+
+## Pushing via API (when HTTPS blocked)
+
+When `github.com` HTTPS is blocked but `api.github.com` works, use PowerShell to push:
+
+```powershell
+# See /tmp/push2.ps1 for full script
+# Flow: create blobs → build tree → create commit → update ref
+```
+
+Key: requires GitHub PAT with `repo` scope.
+
 ## Common Mistakes
 
 - **Missing frontmatter:** Files without `---` frontblock won't appear in manifest metadata

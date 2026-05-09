@@ -13,3 +13,5 @@ originSessionId: 852bf0b4-20e1-41a2-b7cf-12fca4a0faea
 - 多文件项目：仍按任务逐个派发，避免冲突
 - 子代理可能跑偏（如 Task 4 的子代理生成了网络安全报告而非写代码），需及时 re-dispatch 并给出更明确的指令
 - 简单任务（创建文件、添加 CSS）可以跳过完整 review 流程，直接验证 commit
+
+**GitHub API 推送模式：** 当 `github.com` HTTPS 被阻断但 `api.github.com` 可达时，用 PowerShell 脚本通过 API 逐文件推送（create blobs → build tree → create commit → update ref）。脚本见 `/tmp/push2.ps1`。
